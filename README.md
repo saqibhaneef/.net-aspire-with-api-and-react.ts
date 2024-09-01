@@ -60,3 +60,7 @@ From the dashboard, you can navigate to the Angular, React, and Vue apps:
 **Vue**
 
 ![Vue app](./images/vue-app.png)
+
+**React TypeScript**
+
+![React TypeScript app](./images/react-typescript.png)
