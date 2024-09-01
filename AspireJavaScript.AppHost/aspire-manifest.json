@@ -81,6 +81,26 @@
           "external": true
         }
       }
+    },
+    "reacttypescript": {
+      "type": "dockerfile.v0",
+      "path": "../AspireJavaScript.ReactTypescript/Dockerfile",
+      "context": "../AspireJavaScript.ReactTypescript",
+      "env": {
+        "NODE_ENV": "production",
+        "REACTTYPESCRIPT_APP_WEATHER_API_HTTP": "{weatherapi.bindings.http.url}",
+        "REACTTYPESCRIPT_APP_WEATHER_API_HTTPS": "{weatherapi.bindings.https.url}",
+        "PORT": "{react.bindings.http.targetPort}"
+      },
+      "bindings": {
+        "http": {
+          "scheme": "http",
+          "protocol": "tcp",
+          "transport": "http",
+          "targetPort": 8001,
+          "external": true
+        }
+      }
     }
   }
 }
