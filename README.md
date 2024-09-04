@@ -10,7 +10,7 @@ name: ".NET Aspire with Angular, React, and Vue"
 urlFragment: "aspire-angular-react-vue"
 description: "An example of how to integrate several Node.js apps into a .NET Aspire app."
 ---
-
+Here is the Detailed Blog: - [Customize aspire sample AspireJavaScript Project to add React TypeScript](https://dotnetcodecrafters.com/customize-aspire-sample-aspirejavascript-project-to-add-react-typescript/)
 # Integrating Angular, React, and Vue with .NET Aspire
 
 This sample demonstrates an approach for integrating several Node.js apps into a .NET Aspire application.
@@ -40,6 +40,7 @@ npm install
 If using Visual Studio, open the solution file `AspireJavaScript.sln` and launch/debug the `AspireJavaScript.AppHost` project.
 
 If using the .NET CLI, run `dotnet run` from the `AspireJavaScript.AppHost` directory.
+Run `dotnet run --publisher manifest --output-path aspire-manifest.json` at the `AspireJavaScript.AppHost` directory which will automatically generate the `aspire-manifest.json` file based on the `AspireJavaScript.AppHost` project.
 
 ### Experiencing the app
 
